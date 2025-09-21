@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6BC801492E8056AB007A02AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BC801322E8056A9007A02AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BC801392E8056A9007A02AA;
+			remoteInfo = HyphunTestingApp;
+		};
+		6BC801532E8056AB007A02AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BC801322E8056A9007A02AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BC801392E8056A9007A02AA;
+			remoteInfo = HyphunTestingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BC8013A2E8056A9007A02AA /* HyphunTestingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyphunTestingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC801482E8056AB007A02AA /* HyphunTestingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyphunTestingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC801522E8056AB007A02AA /* HyphunTestingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyphunTestingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6BC8013C2E8056A9007A02AA /* HyphunTestingApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HyphunTestingApp;
+			sourceTree = "<group>";
+		};
+		6BC8014B2E8056AB007A02AA /* HyphunTestingAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HyphunTestingAppTests;
+			sourceTree = "<group>";
+		};
+		6BC801552E8056AB007A02AA /* HyphunTestingAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HyphunTestingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BC801372E8056A9007A02AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC801452E8056AB007A02AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC8014F2E8056AB007A02AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BC801312E8056A9007A02AA = {
+			isa = PBXGroup;
+			children = (
+				6BC8013C2E8056A9007A02AA /* HyphunTestingApp */,
+				6BC8014B2E8056AB007A02AA /* HyphunTestingAppTests */,
+				6BC801552E8056AB007A02AA /* HyphunTestingAppUITests */,
+				6BC8013B2E8056A9007A02AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BC8013B2E8056A9007A02AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BC8013A2E8056A9007A02AA /* HyphunTestingApp.app */,
+				6BC801482E8056AB007A02AA /* HyphunTestingAppTests.xctest */,
+				6BC801522E8056AB007A02AA /* HyphunTestingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BC801392E8056A9007A02AA /* HyphunTestingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC8015C2E8056AB007A02AA /* Build configuration list for PBXNativeTarget "HyphunTestingApp" */;
+			buildPhases = (
+				6BC801362E8056A9007A02AA /* Sources */,
+				6BC801372E8056A9007A02AA /* Frameworks */,
+				6BC801382E8056A9007A02AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6BC8013C2E8056A9007A02AA /* HyphunTestingApp */,
+			);
+			name = HyphunTestingApp;
+			packageProductDependencies = (
+			);
+			productName = HyphunTestingApp;
+			productReference = 6BC8013A2E8056A9007A02AA /* HyphunTestingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BC801472E8056AB007A02AA /* HyphunTestingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC8015F2E8056AB007A02AA /* Build configuration list for PBXNativeTarget "HyphunTestingAppTests" */;
+			buildPhases = (
+				6BC801442E8056AB007A02AA /* Sources */,
+				6BC801452E8056AB007A02AA /* Frameworks */,
+				6BC801462E8056AB007A02AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BC8014A2E8056AB007A02AA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6BC8014B2E8056AB007A02AA /* HyphunTestingAppTests */,
+			);
+			name = HyphunTestingAppTests;
+			packageProductDependencies = (
+			);
+			productName = HyphunTestingAppTests;
+			productReference = 6BC801482E8056AB007A02AA /* HyphunTestingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BC801512E8056AB007A02AA /* HyphunTestingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC801622E8056AB007A02AA /* Build configuration list for PBXNativeTarget "HyphunTestingAppUITests" */;
+			buildPhases = (
+				6BC8014E2E8056AB007A02AA /* Sources */,
+				6BC8014F2E8056AB007A02AA /* Frameworks */,
+				6BC801502E8056AB007A02AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BC801542E8056AB007A02AA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6BC801552E8056AB007A02AA /* HyphunTestingAppUITests */,
+			);
+			name = HyphunTestingAppUITests;
+			packageProductDependencies = (
+			);
+			productName = HyphunTestingAppUITests;
+			productReference = 6BC801522E8056AB007A02AA /* HyphunTestingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BC801322E8056A9007A02AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					6BC801392E8056A9007A02AA = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					6BC801472E8056AB007A02AA = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 6BC801392E8056A9007A02AA;
+					};
+					6BC801512E8056AB007A02AA = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 6BC801392E8056A9007A02AA;
+					};
+				};
+			};
+			buildConfigurationList = 6BC801352E8056A9007A02AA /* Build configuration list for PBXProject "HyphunTestingApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BC801312E8056A9007A02AA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6BC8013B2E8056A9007A02AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BC801392E8056A9007A02AA /* HyphunTestingApp */,
+				6BC801472E8056AB007A02AA /* HyphunTestingAppTests */,
+				6BC801512E8056AB007A02AA /* HyphunTestingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BC801382E8056A9007A02AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC801462E8056AB007A02AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC801502E8056AB007A02AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BC801362E8056A9007A02AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC801442E8056AB007A02AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC8014E2E8056AB007A02AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BC8014A2E8056AB007A02AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BC801392E8056A9007A02AA /* HyphunTestingApp */;
+			targetProxy = 6BC801492E8056AB007A02AA /* PBXContainerItemProxy */;
+		};
+		6BC801542E8056AB007A02AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BC801392E8056A9007A02AA /* HyphunTestingApp */;
+			targetProxy = 6BC801532E8056AB007A02AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6BC8015A2E8056AB007A02AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PCA5TK34VA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BC8015B2E8056AB007A02AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PCA5TK34VA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6BC8015D2E8056AB007A02AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HyphunTestingApp/HyphunTestingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCA5TK34VA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyphun.HyphunTestingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6BC8015E2E8056AB007A02AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HyphunTestingApp/HyphunTestingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCA5TK34VA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyphun.HyphunTestingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6BC801602E8056AB007A02AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCA5TK34VA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyphun.HyphunTestingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyphunTestingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HyphunTestingApp";
+			};
+			name = Debug;
+		};
+		6BC801612E8056AB007A02AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCA5TK34VA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyphun.HyphunTestingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyphunTestingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HyphunTestingApp";
+			};
+			name = Release;
+		};
+		6BC801632E8056AB007A02AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCA5TK34VA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyphun.HyphunTestingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HyphunTestingApp;
+			};
+			name = Debug;
+		};
+		6BC801642E8056AB007A02AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCA5TK34VA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyphun.HyphunTestingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HyphunTestingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BC801352E8056A9007A02AA /* Build configuration list for PBXProject "HyphunTestingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC8015A2E8056AB007A02AA /* Debug */,
+				6BC8015B2E8056AB007A02AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC8015C2E8056AB007A02AA /* Build configuration list for PBXNativeTarget "HyphunTestingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC8015D2E8056AB007A02AA /* Debug */,
+				6BC8015E2E8056AB007A02AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC8015F2E8056AB007A02AA /* Build configuration list for PBXNativeTarget "HyphunTestingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC801602E8056AB007A02AA /* Debug */,
+				6BC801612E8056AB007A02AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC801622E8056AB007A02AA /* Build configuration list for PBXNativeTarget "HyphunTestingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC801632E8056AB007A02AA /* Debug */,
+				6BC801642E8056AB007A02AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BC801322E8056A9007A02AA /* Project object */;
+}
